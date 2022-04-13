@@ -24,13 +24,14 @@ public class Application {
     public CommandLineRunner start() {
         return args -> {
             System.out.println("==== DEBUT DU PROGRAMME ====");
-            Produit produit = new Produit();
-            produit.setNom("IUC61");
-            produit.setDescription("R.A.S.");
-            produit.setQte(5);
-            produit.setPrix(430.34);
+           /* Produit produit = new Produit();
+            produit.setNom("IUC-TEST");
+            produit.setDescription("R.A.S. - ENCORE");
+            produit.setQte(29);
+            produit.setPrix(434059);*/
 
-            produitService.ajouterProduit(produit);
+            //produitService.ajouterProduit(produit);
+            //produitService.miseAjourProduit(1L, produit);
         };
     }
 
